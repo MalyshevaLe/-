@@ -24,10 +24,10 @@ string num = Console.ReadLine();
 string ShowThirdNum(){
 
     if (num.Length > 2){
-       return ("третья цифра заданного числа " + num[2]);
+       return "третья цифра заданного числа " + num[2];
     }
     else{
-       return("Третьей цифры нет");
+       return "Третьей цифры нет";
     }
 }
 Console.WriteLine(ShowThirdNum());*/
@@ -43,13 +43,13 @@ Console.Write("Введите число от 1 до 7: ");
 int dayOfWeek=Convert.ToInt32(Console.ReadLine());
 string day() {
     if (dayOfWeek >= 6 && dayOfWeek <=7){
-         return ("Сегодня выходной)))");
+         return "Сегодня выходной)))";
     }
     if (dayOfWeek >=1 && dayOfWeek <= 5){
-         return ("Сегодня не выходной ((( Работа ждет");
+         return "Сегодня не выходной ((( Работа ждет";
     }
     else {
-         return ("Нет такого дня недели");
+         return "Нет такого дня недели";
          }
 }         
 Console.WriteLine(day());*/
